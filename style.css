@@ -12,6 +12,14 @@ body {
 
 /* Pagina Principal */
 
+.imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/* Faz a imagem cobrir o header sem distorcer */
+    opacity: 0.2;/* Deixa a imagem mais transparente */
+}
+
 header {
     position: relative;
     width: 100%;
@@ -19,19 +27,6 @@ header {
     overflow: hidden;
     margin-bottom: 2%;
 }
-
-#imagem_1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Faz a imagem cobrir o header sem distorcer */
-    opacity: 0.2;
-    /* Deixa a imagem mais transparente */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 
 h1 {
     position: absolute;
@@ -41,14 +36,13 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    z-index: 1;
-    /* Mantém o texto na frente */
+    z-index: 1;/* Mantém o texto na frente */
 }
 
 h2 {
     margin: 2%;
+    font-style: oblique;
 }
-
 
 h3 {
     margin-top: 3%;
@@ -60,35 +54,20 @@ p {
 }
 
 table {
-    width: 80%;
+    width: 50%;
     margin: 20px auto;
-    border-collapse: collapse;
     /* Remove os espaços entre as células */
+    border-collapse: collapse;
     text-align: center;
 }
 
 .tabela th,
 .tabela td {
     padding: 12px;
-    /* Espaçamento interno das células */
     border: 1px solid #252424;
-    /* Borda nas células */
 }
-
 
 /* Pagina 1*/
-
-#imagem_2 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Faz a imagem cobrir o header sem distorcer */
-    opacity: 0.2;
-    /* Deixa a imagem mais transparente */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 ul {
     margin-left: 3.5%;
@@ -96,6 +75,7 @@ ul {
 }
 
 button {
+    text-decoration: none;
     position: absolute; 
     right: 20px;
     margin-bottom: 3%;
@@ -106,39 +86,11 @@ button {
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
-    text-decoration: none;
 }
 
 button:hover {
-    background-color: rgb(255, 255, 255); /* Fundo preto ao passar o mouse */
-    color: rgb(0, 0, 0); /* Cor do texto branca no hover */
-    transform: scale(1.1); /* Aumenta o botão um pouco ao passar o mouse */
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
 }
 
-/* Pagina 2*/
-
-#imagem_3{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Faz a imagem cobrir o header sem distorcer */
-    opacity: 0.2;
-    /* Deixa a imagem mais transparente */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-/* Pagina 3*/
-
-#imagem_4{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Faz a imagem cobrir o header sem distorcer */
-    opacity: 0.2;
-    /* Deixa a imagem mais transparente */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
