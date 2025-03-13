@@ -115,3 +115,30 @@ button:hover {
     transform: scale(1.1); /* Aumenta o botão um pouco ao passar o mouse */
 }
 
+/* Pagina 2*/
+
+#imagem_3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Faz a imagem cobrir o header sem distorcer */
+    opacity: 0.2;
+    /* Deixa a imagem mais transparente */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Pagina 3*/
+
+#imagem_4{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Faz a imagem cobrir o header sem distorcer */
+    opacity: 0.2;
+    /* Deixa a imagem mais transparente */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
